@@ -1,0 +1,27 @@
+.adjust-time {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .AdjustTime .time-text {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555;
+    display: block;
+  }
+  
+  .adj-time-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #30c8dc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .adj-time-btn:hover {
+    background: #28a5b8;
+  }
+  
