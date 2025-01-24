@@ -11,7 +11,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 model = YOLO("../Yolo-Weights/yolov8n.pt").to(device)
 
 # Video processing
-video_path = "video.mp4"
+video_path = "videos/video.mp4"
 output_path = "videos/processed_video.mp4"
 
 cap = cv2.VideoCapture(video_path)
